@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pink Petal Boutique</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home 🏠</a>
+        <a href="#shop">Shop 🌸</a>
+        <a href="#about">About 💕</a>
+        <a href="#contact">Contact 💌</a>
+    </nav>
+
+    <!-- Home -->
+    <section class="hero" id="home">
+
+       <div class="petals">
+    <span>🌸</span>
+    <span>🌷</span>
+    <span>🌸</span>
+    <span>💮</span>
+    <span>🌸</span>
+</div>
+
+<div class="hero-content">
+
+    <p class="welcome">WELCOME TO</p>
+
+    <h1>Pink Petal Boutique</h1>
+
+    <p class="tagline">
+        Where every piece blooms with beauty ✨
+    </p>
+
+    <p class="hero-description">
+        Discover beautiful fashion, accessories and little treasures
+        selected to make every moment feel special.
+    </p>
+
+    <div class="hero-buttons">
+
+        <button onclick="document.getElementById('shop').scrollIntoView({behavior: 'smooth'})">
+            Shop Collection 🛍️
+        </button>
+
+        <button class="outline-button" onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'})">
+            Our Story 🌸
+        </button>
+
+    </div>
+
+</div>
+
+    </section>
+
+
+    <!-- Shop -->
+    <section class="shop" id="shop">
+
+       <h2>🌷 Our Collection</h2>
+
+<div class="cards">
+
+    <div class="card">
+        <div class="product-image">
+    <img src="images/dress.jpg" alt="Pink Petal Dress">
+</div>
+        <h3>Pink Petal Dress</h3>
+        <p>A sweet and elegant dress for special occasions.</p>
+        <h4>KSh 2,500</h4>
+      <button onclick="addToCart('Pink Petal Dress', 2500)">
+    Add to Cart 🛍️
+</button>
+    </div>
+
+    <div class="card">
+      <div class="product-image">
+    <img src="images/bag.jpg" alt="Petal Mini Bag">
+</div>
+        <h3>Petal Mini Bag</h3>
+        <p>A cute little bag to complete your outfit.</p>
+        <h4>KSh 1,800</h4>
+       <button onclick="addToCart('Petal Mini Bag', 1800)">
+    Add to Cart 🛍️
+</button>
+    </div>
+
+    <div class="card">
+      <div class="product-image">
+    <img src="images/bow.jpg" alt="Pretty Petal Bow">
+</div>
+        <h3>Pretty Petal Bow</h3>
+        <p>A lovely accessory for adding a feminine touch.</p>
+        <h4>KSh 600</h4>
+       <button onclick="addToCart('Pretty Petal Bow', 600)">
+    Add to Cart 🛍️
+</button>
+    </div>
+
+</div>
+
+    </section>
+
+
+    <!-- About -->
+    <section class="about" id="about">
+
+        <h2>💕 About Pink Petal Boutique</h2>
+
+        <p>
+            Pink Petal Boutique is a cute online boutique created
+            for anyone who loves beautiful, feminine and stylish things.
+        </p>
+
+    </section>
+    <section class="cart" id="cart">
+
+    <h2>🛍️ Your Cart</h2>
+
+    <div id="cart-items">
+        <p>Your cart is empty 💕</p>
+    </div>
+
+    <h3>Total: KSh <span id="cart-total">0</span></h3>
+
+</section>
+
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2>💌 Get In Touch</h2>
+
+        <p>
+            We'd love to hear from you!
+        </p>
+
+        <button>Contact Us 💜</button>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Pink Petal Boutique 🌸
+        </p>
+
+        <p>
+            Made with 💕
+        </p>
+
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
