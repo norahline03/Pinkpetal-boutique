@@ -350,5 +350,18 @@ footer {
     .hero-description {
         font-size: 15px;
     }
+}.product-image {
+    width: 100%;
+    height: 280px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 }
